@@ -1,0 +1,125 @@
+.pickup-detail-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.pickup-detail-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    flex: 1;
+}
+
+.title {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.priceeeee-icon {
+    margin-bottom: 20px;
+}
+
+.icon-image {
+    width: 200px;
+    height: 200px;
+}
+
+.location-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+    margin: 0 auto;
+    margin-left: 20%;
+}
+
+.first-location-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.second-location-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.green-circle {
+    color: green;
+    font-size: 1.2em;
+}
+
+.pink-circle {
+    color: #ff1493;
+    font-size: 1.2em;
+}
+
+.text .label {
+    font-weight: bold;
+    color: #333;
+}
+
+.distance-time-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+}
+
+.distance, .time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.car-icon {
+    width: 70px;
+    height: 70px;
+}
+
+.info .label {
+    font-size: 0.8em;
+    color: #888;
+    margin-bottom: 4px;
+}
+
+.info .value {
+    font-weight: bold;
+    color: #333;
+    font-size: 1.2em;
+}
+
+.request-button {
+    width: 80%;
+    padding: 12px;
+    background-color: #2EA366;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.request-button:hover {
+    background-color: #279258;
+}
+
+.note {
+    font-size: 0.8em;
+    color: #777;
+    margin-top: 20px;
+    text-align: center;
+    max-width: 400px;
+}

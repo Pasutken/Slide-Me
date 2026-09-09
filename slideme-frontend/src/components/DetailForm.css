@@ -1,0 +1,109 @@
+/* src/components/DetailForm.css */
+.formmy-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+p a {
+  color: #2EA366;
+}
+
+a {
+  color: #424242;
+  text-decoration: none;
+}
+
+.detail-form {
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cuuussstommm-input {
+  border: none;
+  border-bottom: 2px solid #000;
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 16px;
+  padding: 10px 0;
+  width: 100%;
+  transition: border 0.3s ease;
+}
+
+.cuuussstommm-input:focus {
+  outline: none;
+  border-bottom: 2px solid #2EA366;
+}
+
+.checkkkkyyy-label {
+  margin-top: 20px;
+  font-size: 12px;
+  color: #666;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  white-space: nowrap;
+}
+
+.checkkkkyyy-container {
+  margin-right: 50px;
+}
+
+.checkkkkyyy-label input[type="checkbox"] {
+  margin-right: 8px;
+  accent-color: #2EA366;
+}
+
+.checkkkkyyy-label a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.checkkkkyyy-label a:hover {
+  text-decoration: none;
+}
+
+.suubbbmt {
+  padding: 14px;
+  font-size: 18px;
+  color: #ffffff;
+  background-color: #2EA366;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 100%;
+}
+
+.suubbbmt:hover {
+  background-color: #279258;
+}

@@ -1,0 +1,92 @@
+.calltummai-containner {
+  margin: 0 auto;
+  background-color: #2EA366;
+  width: 100%;
+  max-width: 350px;
+  height: 600px;
+  padding: 20px;
+  margin-top: 40px;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.calltummai-img {
+  text-align: center;
+  background-color: #FFFFFF;
+}
+
+.profile-call {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  object-fit: cover;
+}
+
+.name {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.connection {
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.call-button {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  margin-top: 120px;
+}
+
+.call-button button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #f1f1f1;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  position: relative;
+}
+
+.call-button button i {
+  font-size: 24px;
+}
+
+.call-button-text {
+  margin-top: 5px;
+  font-size: 12px;
+  color: #555;
+  text-align: center;
+}
+
+.end-call-button {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.end-call-button button {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #f1f1f1;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.end-call-button i {
+  font-size: 24px;
+  color: #ff0000; 
+}

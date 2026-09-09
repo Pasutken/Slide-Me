@@ -1,0 +1,94 @@
+/* Container สำหรับฟอร์ม */
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  height: 100vh;  /* เติมเต็มพื้นที่ทั้งหมด */
+  background-color: #f9f9f9;  /* สีพื้นหลังอ่อน */
+}
+
+.register-box {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;  /* จำกัดความกว้างสูงสุด */
+}
+
+/* หัวเรื่อง */
+h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 30px;  /* เว้นระยะให้พอดี */
+  color: #2EA366;
+}
+
+/* ฟอร์ม */
+.form-group {
+  margin-bottom: 20px; /* เว้นระยะระหว่างแต่ละช่องฟอร์ม */
+}
+
+.form-group label {
+  display: block;
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 8px;  /* เว้นระยะระหว่าง label และ input */
+}
+
+.custom-input {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-bottom: 12px; /* เว้นระยะด้านล่างของ input */
+}
+
+.custom-input:focus {
+  outline: none;
+  border-color: #2EA366;
+}
+
+/* ปุ่ม submit */
+.register-button {
+  width: 100%;
+  padding: 14px;
+  background-color: #2EA366;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;  /* เว้นระยะระหว่างปุ่มกับช่องฟอร์ม */
+}
+
+.register-button:hover {
+  background-color: #258b4a;
+}
+
+.register-button:active {
+  background-color: #2EA366;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 600px) {
+  .register-box {
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .form-group label,
+  .custom-input {
+    font-size: 14px;
+  }
+
+  .register-button {
+    font-size: 16px;
+    padding: 12px;
+  }
+}

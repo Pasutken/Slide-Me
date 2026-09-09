@@ -1,0 +1,49 @@
+.priva-title-container {
+    margin-bottom: 1em;
+    position: relative;
+    display: block;
+    margin-top: 20px;
+  }
+  
+  .priva-title {
+    display: flex;
+    align-items: center; 
+    justify-content: flex-start; 
+    gap: 12px; 
+    padding-bottom: 10px; 
+    text-align: left;
+    position: relative;
+    width: 100%; 
+    margin-left: 20px;
+  }
+  
+  .priva-title h6 {
+    margin: 0;
+    font-size: 1rem; 
+    font-weight: 600; 
+    color: #121312; 
+    line-height: 1.5;
+  }
+  
+  .priva-title svg {
+    width: 16px;
+    height: 16px;
+    fill: currentColor;
+    color: #2Ea366;
+    cursor: pointer; 
+    margin-left: 175px; 
+  }
+  
+  
+  .priva-title::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0; 
+    height: 1px; 
+    background-color: #121312; 
+    width: 350px;
+  }
+  
+

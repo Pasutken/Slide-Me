@@ -1,0 +1,100 @@
+/* src/components/Login.css */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ffffff;
+}
+
+.login-box {
+  width: 300px;
+  text-align: center;
+}
+
+.login-logo {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  position: relative;
+  margin-bottom: 20px; /* เพิ่มระยะห่างระหว่าง input แต่ละกล่อง */
+}
+
+.custom-input {
+  border: none;
+  border-bottom: 2px solid #000;
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 16px;
+  padding: 10px 0;
+  width: 100%;
+  transition: border 0.3s ease; /* เพิ่ม transition สำหรับ effect */
+}
+
+.custom-input:focus {
+  outline: none; /* ลบเส้น outline ดั้งเดิม */
+}
+
+
+.password-group {
+  position: relative;
+  margin-bottom: 10px; /* เพิ่มระยะห่างใต้กล่องรหัสผ่าน */
+}
+
+.toggle-password {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.password-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.forgot-password-container {
+  text-align: right;
+  margin-bottom: 20px; /* เพิ่มระยะห่างใต้ลิงก์ลืมรหัสผ่าน */
+}
+
+.forgot-password-link {
+  font-size: 12px;
+  color: #424242;
+  text-decoration: none;
+}
+
+.forgot-password-link:hover {
+  text-decoration: underline;
+}
+
+.login-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #2EA366;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px; /* เพิ่มระยะห่างด้านบนของปุ่มล็อกอิน */
+}
+
+.login-button:hover {
+  background-color: #279258;
+}
+
+.login-register {
+  margin-top: 20px; /* เพิ่มระยะห่างระหว่างข้อความสมัครใหม่กับปุ่มล็อกอิน */
+}
+
+.register-link {
+  color: #2EA366;
+  text-decoration: none;
+}
+
+.register-link:hover {
+  text-decoration: underline;
+}

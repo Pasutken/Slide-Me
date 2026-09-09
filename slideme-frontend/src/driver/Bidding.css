@@ -1,0 +1,132 @@
+.bidding-container {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .bidding-popup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    max-width: 400px;
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .bidding-title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 8px;
+  }
+  
+  .bidding-subtext {
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+  }
+  
+  .suggested-rate {
+    color: #2ea366;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .bidding-input-container {
+    margin: 20px 0;
+  }
+  
+  .bidding-input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .location-details {
+    margin: 20px 0;
+    text-align: left;
+  }
+  
+  .pickup-location,
+  .destination-location {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+  }
+  
+  .circle {
+    width: 12px;
+    height: 12px;
+    background: #2ea366;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .location-icon {
+    width: 12px;
+    height: 12px;
+    background: url("https://img.icons8.com/ios-filled/50/2ea366/marker.png")
+      no-repeat center center;
+    background-size: contain;
+    margin-right: 10px;
+  }
+  
+  .location-text {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .vehicle-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+    gap: 10px; /* เพิ่มระยะห่างระหว่างไอคอนกับข้อความ */
+}
+
+.vehicle-icon {
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0; /* ทำให้ไอคอนไม่ย่อขนาด */
+}
+
+.vehicle-info {
+    display: flex;
+    flex-direction: row; /* แสดงข้อมูลเป็นแถว */
+    align-items: center;
+    gap: 10px; /* เพิ่มระยะห่างระหว่างข้อความ */
+    flex-grow: 1; /* ทำให้ส่วนข้อความขยายเพื่อให้ layout สมดุล */
+    justify-content: space-around; /* จัดตำแหน่งข้อความให้ห่างกัน */
+}
+
+.vehicle-text {
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+    white-space: nowrap; /* ป้องกันข้อความตัดบรรทัด */
+}
+  
+  .confirm-button {
+    width: 100%;
+    padding: 12px;
+    background: #2ea366;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .confirm-button:hover {
+    background: #249959;
+  }  

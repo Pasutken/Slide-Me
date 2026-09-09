@@ -1,0 +1,17 @@
+/* src/components/MapView.css */
+
+.map-view {
+  width: 100%;
+  height: calc(100vh - 120px);
+  position: relative;
+}
+
+.icon {
+  margin-right: 10px;
+  font-size: 1.2em;
+}
+
+.text {
+  font-weight: bold;
+  color: #424242;
+}

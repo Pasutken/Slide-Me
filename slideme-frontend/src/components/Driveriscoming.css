@@ -1,0 +1,200 @@
+.driver-is-coming-container {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #f9f9f9; /* สีพื้นหลังสะอาดตา */
+}
+
+.infooo-card {
+  position: fixed;
+  bottom: 80px; /* เพิ่มระยะห่างจาก BottomNavBar */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%; /* ลดความกว้างเพื่อเพิ่มระยะห่างจากขอบ */
+  max-width: 400px; /* จำกัดความกว้างสูงสุด */
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.1);
+  padding: 25px; /* เพิ่ม padding เพื่อให้ดูโปร่ง */
+  text-align: center;
+  z-index: 10; /* นำหน้าองค์ประกอบอื่น */
+}
+
+.driver-infooo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  padding: 0 15px;
+  flex-direction: row;
+}
+
+.driver-image {
+  width: 60px; /* ขยายขนาดรูป */
+  height: 60px;
+  border-radius: 50%;
+  margin-left: -15px;
+}
+
+.driver-dtzz {
+  flex: 1;
+  margin-left: 10px; /* เพิ่มช่องว่างระหว่างรูปภาพและรายละเอียด */
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.driver-name {
+  font-size: 18px; /* ขยายขนาดฟอนต์ */
+  font-weight: bold;
+  color: #333; /* สีข้อความเข้ม */
+}
+
+.rating {
+  font-size: 14px;
+  color: #666;
+}
+
+.contact-icons {
+  display: flex;
+  justify-content: right;
+  gap: 10px; /* เพิ่มช่องว่างระหว่างไอคอน */
+}
+
+.contact-icon {
+  width: 28px; /* เพิ่มขนาดไอคอน */
+  height: 28px;
+  cursor: pointer;
+}
+
+.location-infooo {
+  text-align: left;
+  margin-bottom: 20px;
+  padding: 0 15px; /* จัดระยะให้สอดคล้องกับองค์ประกอบอื่น */
+}
+
+.location-item {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.green-dot,
+.pink-dot {
+  margin-right: 10px;
+  font-size: 18px; /* เพิ่มขนาดจุด */
+}
+
+.green-dot {
+  color: #2ea366;
+}
+
+.pink-dot {
+  color: #e91e63;
+}
+
+.divider {
+  margin: 15px 0;
+  border-top: 1px solid #ddd;
+}
+
+.ride-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px; /* ให้สอดคล้องกับระยะห่างอื่นๆ */
+  margin-bottom: 20px;
+}
+
+.ride-icon {
+  width: 50px; /* ขยายขนาดไอคอนรถ */
+  height: 50px;
+}
+
+.ride-details span {
+  font-size: 16px; /* ขยายขนาดฟอนต์ */
+  color: #333;
+  margin: 0;
+  text-align: center;
+}
+
+.cancel-button {
+  display: block; /* ทำให้ปุ่มอยู่ตรงกลาง */
+  margin: 0 auto; /* จัดปุ่มให้อยู่ตรงกลาง */
+  width: 85%; /* เพิ่มความกว้างให้เหมาะสม */
+  padding: 12px;
+  background-color: #333; /* พื้นหลังสีเข้ม */
+  color: white; /* ตัวอักษรสีขาว */
+  border: none; /* ลบเส้นขอบ */
+  border-radius: 12px; /* ขอบมน */
+  font-size: 16px;
+  font-weight: bold; /* ตัวหนา */
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .infooo-card {
+    width: 95%; /* เพิ่มความกว้างสำหรับหน้าจอเล็ก */
+    padding: 20px; /* ลด padding */
+  }
+
+  .driver-image {
+    width: 50px;
+    height: 50px;
+  }
+
+  .driver-name {
+    font-size: 16px;
+  }
+
+  .rating {
+    font-size: 12px;
+  }
+
+  .ride-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .ride-details span {
+    font-size: 14px;
+  }
+
+  .cancelbtn {
+    width: 90%; /* เพิ่มความกว้างให้เหมาะกับหน้าจอเล็ก */
+    padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .infooo-card {
+    bottom: 60px; /* ลดระยะห่างสำหรับหน้าจอที่เล็กมาก */
+  }
+
+  .driver-infooo {
+    flex-direction: row; /* แสดงข้อมูลในแนวตั้ง */
+    align-items: flex-start; /* ชิดซ้าย */
+  }
+
+  .driver-image {
+    margin-left: 0;
+  }
+
+  .driver-dt {
+    margin-left: 0;
+    text-align: center; /* จัดข้อความไว้กลาง */
+  }
+
+  .contact-icons {
+    justify-content: center; /* ไอคอนจัดตรงกลาง */
+  }
+
+  .cancelbtn {
+    font-size: 14px; /* ลดขนาดฟอนต์ */
+    padding: 8px;
+  }
+}

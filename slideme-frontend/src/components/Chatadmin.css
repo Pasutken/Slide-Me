@@ -1,0 +1,162 @@
+/* Chatadmin.css */
+
+.chatBox-container {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    background-color: #f0f0f0;
+}
+
+.chatBox-header {
+    display: flex;
+    align-items: center;
+    background-color: #2EA366;
+    padding: 10px;
+    color: white;
+}
+
+.chatBox-header img {
+    border-radius: 50%;
+    margin-right: 10px;
+    width: 55px;
+    height: 55px;
+    object-fit: cover;
+}
+
+.chatBox-user-info {
+    flex: 1;
+}
+
+.chatBox-user-info h2 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.chatBox-status {
+    font-size: 0.8em;
+}
+
+.chatBox-close-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5em;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px; 
+    height: 40px; 
+    border-radius: 50%; 
+}
+
+
+.chatBox-content {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+}
+
+.chatBox-message {
+    max-width: 70%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    position: relative;
+    font-size: 0.9em;
+    clear: both;
+}
+
+.chatBox-sent {
+    background-color: #2EA366;
+    color: white;
+    align-self: flex-end; 
+    margin-left: auto; 
+    width: 150px;
+}
+
+.chatBox-sent1 {
+    background-color: #2EA366;
+    color: white;
+    align-self: flex-end; 
+    margin-left: auto; 
+    width: 190px;
+}
+
+.chatBox-received {
+    background-color: #ffffff;
+    color: #333;
+    align-self: flex-start;
+    margin-right: auto; 
+    width: 220px;
+}
+
+.chatBox-received1 {
+    background-color: #ffffff;
+    color: #333;
+    align-self: flex-start;
+    margin-right: auto; 
+    width: 300px;
+}
+
+.chatBox-message::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+}
+
+.chatBox-sent::after {
+    right: -10px;
+    border-left-color: #2EA366;
+}
+
+.chatBox-sent1::after {
+    right: -10px;
+    border-left-color: #2EA366;
+}
+
+.chatBox-received::after {
+    left: -10px;
+    border-right-color: #ffffff;
+}
+
+.chatBox-received1::after {
+    left: -10px;
+    border-right-color: #ffffff;
+}
+
+.chatBox-timestamp {
+    font-size: 0.75em;
+    color: #777;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.chatBox-input-container {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #FFFFFF;
+    border-top: 1px solid #DDDDDD;
+}
+
+.chatBox-input-container input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #DDDDDD;
+    border-radius: 20px;
+    outline: none;
+}
+
+.chatBox-input-container button {
+    background-color: #2EA366;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 50%;
+    margin-left: 10px;
+    cursor: pointer;
+}

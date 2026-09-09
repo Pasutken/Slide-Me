@@ -1,0 +1,15 @@
+/* src/components/SplashScreen.css */
+
+.splash-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffffff; /* พื้นหลังสีขาว */
+  }
+  
+  .splash-logo {
+    width: 150px; /* ขนาดโลโก้ */
+    height: auto;
+  }
+  

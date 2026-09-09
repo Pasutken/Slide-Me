@@ -1,0 +1,95 @@
+/* กำหนดการจัดระยะและลักษณะกรอบของฟอร์ม */
+.vehicle-form-container {
+    width: 100%;
+    max-width: 600px; /* กำหนดความกว้างสูงสุด */
+    margin: 40px auto; /* จัดให้ฟอร์มอยู่กลางหน้า */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  /* กำหนดหัวข้อของฟอร์ม */
+  .vehicle-form-container h2 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #2ea366;
+    margin-bottom: 20px;
+  }
+  
+  /* กลุ่มของ input field */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  /* ป้าย label */
+  .form-group label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #495057;
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  /* สไตล์ของ input และ select */
+  .form-group input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  /* เมื่อ focus ที่ input จะเปลี่ยนกรอบเป็นสีเขียว */
+  .form-group input:focus {
+    border-color: #2ea366;
+    outline: none;
+  }
+  
+  /* ปุ่มบันทึกข้อมูล */
+  button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #2ea366;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #259d52;
+  }
+  
+  button:active {
+    background-color: #1e853f;
+  }
+  
+  /* ขนาดสำหรับภาพ */
+  input[type="file"] {
+    padding: 10px;
+  }
+  
+  /* การจัดระยะให้พอดีในมือถือ */
+  @media (max-width: 600px) {
+    .vehicle-form-container {
+      width: 90%;
+      padding: 15px;
+    }
+  
+    .form-group input {
+      padding: 10px;
+      font-size: 14px;
+    }
+  
+    button {
+      font-size: 14px;
+      padding: 10px;
+    }
+  }  

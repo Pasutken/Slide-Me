@@ -1,0 +1,77 @@
+/* src/components/Register.css */
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ffffff;
+}
+
+.register-box {
+  width: 100%;
+  max-width: 400px; /* Adjust the max width as needed */
+  text-align: center;
+  padding: 20px;
+}
+
+.register-title {
+  font-size: 28px; /* Increase font size for the title */
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 20px; /* Increase space between the title and the input */
+}
+
+.register-subtitle {
+  font-size: 16px; /* Slightly larger subtitle */
+  color: #777;
+  margin-bottom: 30px; /* Increase space between subtitle and the input */
+}
+
+.form-group {
+  position: relative;
+  margin-bottom: 25px; /* Adjust margin for better spacing */
+}
+
+.custom-input {
+  border: none;
+  border-bottom: 2px solid #2EA366; /* Green border to match theme */
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 18px; /* Slightly increase input text size */
+  padding: 12px 0;
+  width: 100%;
+  transition: border 0.3s ease;
+  text-align: left; /* Align the text to the left */
+}
+
+.custom-input:focus {
+  outline: none;
+  border-bottom: 2px solid #279258; /* Slightly darker green on focus */
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.register-button {
+  width: 100%;
+  padding: 10px; /* Increased padding for a larger button */
+  background-color: #2EA366;
+  color: #fff;
+  border: none;
+  border-radius: 5px; /* Slightly rounded corners for the button */
+  cursor: pointer;
+  font-size: 18px; /* Slightly larger font size */
+  margin-top: 10px; /* Add more space above the button */
+  transition: background-color 0.3s ease;
+}
+
+.register-button:hover {
+  background-color: #279258;
+}

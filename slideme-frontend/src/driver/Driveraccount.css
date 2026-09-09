@@ -1,0 +1,128 @@
+/* ฟอนต์และพื้นหลังของฟอร์ม */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f5f7;
+  margin: 0;
+  padding: 0;
+}
+
+/* คอนเทนเนอร์ของฟอร์ม */
+.account-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+/* กล่องฟอร์ม */
+.register-container {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 450px;
+  padding: 30px;
+  text-align: center;
+}
+
+/* ชื่อฟอร์ม */
+.register-container h2 {
+  color: #2ea366;
+  font-size: 26px;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+/* กลุ่มฟอร์ม */
+.form-group {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+/* ป้ายของฟอร์ม */
+.form-group label {
+  font-size: 14px;
+  color: #333;
+  display: block;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+/* กล่องกรอกข้อมูล */
+input[type="text"], 
+input[type="email"], 
+select {
+  width: 100%;
+  padding: 15px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+/* การปรับโฟกัสเมื่อผู้ใช้คลิก */
+input:focus,
+select:focus {
+  border: 1px solid #2ea366;
+  outline: none;
+}
+
+/* ปุ่มค้นหาข้อมูล */
+button {
+  width: 100%;
+  padding: 15px;
+  background-color: #2ea366;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* เปลี่ยนสีเมื่อเลื่อนเมาส์ไปเหนือปุ่ม */
+button:hover {
+  background-color: #2b8f59;
+}
+
+/* ปุ่มยืนยันการดำเนินการ */
+button:active {
+  background-color: #25733e;
+}
+
+/* ตัวเลือกธนาคาร */
+select {
+  width: 100%;
+  padding: 15px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+/* ปรับขนาดในมือถือ */
+@media (max-width: 600px) {
+  .register-container {
+    padding: 20px;
+  }
+
+  .register-container h2 {
+    font-size: 22px;
+  }
+
+  input[type="text"], 
+  input[type="email"], 
+  select {
+    padding: 12px;
+    font-size: 14px;
+  }
+
+  button {
+    font-size: 14px;
+    padding: 12px;
+  }
+}

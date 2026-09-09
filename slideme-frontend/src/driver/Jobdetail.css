@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  .job-detail-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .job-detail-content {
+    width: 90%;
+    max-width: 380px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem; /* Spacing between cards */
+    margin-top: 1rem;
+  }
+  
+  .card {
+    background: white;
+    padding: 1.2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left; /* Align text to the left */
+    width: 90%;
+    max-width: 380px;
+  }
+  
+  .card h3 {
+    font-size: 1rem;
+    color: #444444;
+    text-align: left;
+    margin-bottom: 0.8rem;
+  }
+  
+  .card p {
+    margin: 0.3rem 0;
+    line-height: 1.6;
+    font-size: 0.9rem; /* Font size for card content */
+  }
+  
+  .location {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .location-title {
+    font-weight: bold;
+    color: #2ea366; /* Green color for location titles */
+  }
+  
+  .icon-with-text {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+  
+  .location-icons {
+    font-size: 1.5rem; /* Adjust icon size */
+    margin-top: 0.3rem;
+  }
+  
+  .connector {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 20px;
+  }
+  
+  .dotted-line {
+    border-left: 2px dashed #383838;
+    height: 70px; /* Adjust height for the dotted line */
+    position: absolute;
+    left: -135px;
+    top: -45px;
+  }
+  
+  .fare {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .payment-note {
+    font-size: 0.85rem;
+    color: #666;
+    margin-top: 0.5rem;
+    line-height: 1.5;
+  }
+  
+  /* Media Queries for Responsive Design */
+  @media (max-width: 768px) {
+    .job-detail-content {
+      width: 95%; /* Slightly wider for smaller screens */
+      gap: 0.2rem; /* Adjust spacing for smaller screens */
+      align-items: center;
+      margin-top: -0.1rem;
+    }
+  
+    .card {
+      padding: 1rem; /* Reduce padding for smaller screens */
+    }
+  
+    .card h3 {
+      font-size: 0.8rem; /* Adjust font size for headings */
+    }
+  
+    .card p {
+      font-size: 0.7rem; /* Adjust font size for content */
+    }
+  
+    .location-icons {
+      font-size: 1.2rem; /* Adjust icon size for smaller screens */
+    }
+  
+    .dotted-line {
+      height: 70px; /* Adjust line height for smaller screens */
+      left: -125px; /* Adjust line position for smaller screens */
+      top: -45px;
+    }
+  }  

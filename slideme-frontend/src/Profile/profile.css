@@ -1,0 +1,133 @@
+body {
+  background-color: #f0f4f8; /* สีพื้นหลัง */
+  font-family: 'Arial', sans-serif;
+  color: #333; /* สีตัวอักษร */
+}
+
+/* Profile Container */
+.profile-container {
+  width: 90%;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 30px;
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+h2 {
+  text-align: center;
+  font-size: 28px;
+  color: #2ea366; /* สีเบส */
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+
+/* Profile Card */
+.profile-card {
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 25px;
+  text-align: left;
+  line-height: 1.6;
+}
+
+/* Label and Input Fields */
+.profile-card label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  font-size: 16px;
+  color: #555;
+}
+
+.profile-card input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #333;
+  background-color: #fdfdfd;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-card input:focus {
+  outline: none;
+  border-color: #2ea366; /* สีเบส */
+  box-shadow: 0 0 5px rgba(46, 163, 102, 0.3);
+}
+
+/* Buttons */
+.save-btn, .edit-btn, .delete-btn {
+  background-color: #2ea366; /* สีเบส */
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin-right: 10px; /* ระยะห่างระหว่างปุ่ม */
+  margin-top: 20px; /* ระยะห่างด้านบน */
+}
+
+.save-btn:hover, .edit-btn:hover, .delete-btn:hover {
+  background-color: #248c52; /* สีเข้มขึ้นเมื่อ hover */
+  transform: translateY(-2px); /* เพิ่มเอฟเฟกต์เลื่อนขึ้นเล็กน้อย */
+}
+
+.delete-btn {
+  background-color: #ff4d4d; /* สีแดงสำหรับปุ่มลบ */
+}
+
+.delete-btn:hover {
+  background-color: #e60000; /* สีแดงเข้มเมื่อ hover */
+}
+
+/* Error Message */
+.error-message {
+  color: red;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Loading State */
+.profile-container .loading-spinner {
+  text-align: center;
+  font-size: 16px;
+  color: #2ea366; /* สีเบส */
+  font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .profile-container {
+    width: 95%;
+    padding: 20px;
+  }
+
+  .profile-card {
+    padding: 20px;
+  }
+
+  .profile-card label {
+    font-size: 14px;
+  }
+
+  .profile-card input {
+    font-size: 14px;
+  }
+
+  .save-btn, .edit-btn, .delete-btn {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+}

@@ -1,0 +1,293 @@
+.history-container {
+    background: linear-gradient(to bottom, #2EA366 20%, #e4e0e0 80%);
+    padding: 20px;
+    padding-bottom: 50px; 
+    align-items: center;
+  }
+  
+  select {
+    margin: 20px 0; 
+    padding: 10px;
+    font-size: 16px;
+    text-align: center; 
+  }
+  
+  .history-container h2 {
+    color: #f1f7f2;
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .history-container select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .history-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .history-item .price-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px; 
+  }
+
+  
+  .history-item p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .status-btn {
+    padding: 5px 10px;
+    border: none;
+    background: none; 
+    box-shadow: none; 
+    font-weight: bold;
+    cursor: default;
+  }
+  
+ 
+  
+  .history-item p.price {
+    margin-top: 5px; 
+  }
+  
+  .price-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-top: 5px; 
+  }
+  
+  .price {
+    position: relative;
+    transform: translateY(-25px); 
+    margin-top: 50px;
+  }
+  
+  
+  .pricetag-container {
+    margin-bottom: 15px;
+  }
+  
+  
+  .price::before {
+    position: absolute;
+    left: 0;
+    top: 100px; 
+    width: 100%; 
+    height: 1px; 
+    background-color: #848884; 
+    z-index: 1; 
+    margin-top: 20px;
+    margin-bottom: 100px;
+  }
+  
+  
+
+  
+  .history-title {
+    background-color: #f0f0f0; 
+    padding: 10px; 
+    border-radius: 5px; 
+  }
+  
+  .back-button {
+    background: none;
+    border: none; 
+    padding: 0; 
+    cursor: pointer; 
+    color: #f0f0f0;
+  }
+  
+  .history-container {
+    background: linear-gradient(to bottom, #2EA366 20%, #e4e0e0 80%);
+    padding: 20px;
+    padding-bottom: 50px; 
+    align-items: center;
+  }
+  
+  select {
+    margin: 20px 0; 
+    padding: 10px;
+    font-size: 16px;
+    text-align: center; 
+  }
+  
+  .history-container h2 {
+    color: #f1f7f2;
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .history-container select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .history-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .history-item .price-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px; 
+  }
+  
+  .history-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 220px; 
+    gap: 5px; 
+    margin-left: 550px;
+    width: 100%;
+    width: 360px;
+  }
+  
+  
+  .history-item p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .status-btn {
+    padding: 5px 10px;
+    border: none;
+    background: none;
+    font-weight: bold;
+    cursor: default;
+    position: relative; 
+    top: -35px; 
+  }
+  
+  
+  .status-btn.confirm {
+    color: #007bff;
+    margin-left: 190px;
+    top: -36px; 
+    margin-right: 2px;
+  }
+
+  .status-btn.completed {
+    color: #28a745;
+    margin-left: 180px;
+    top: -40px; 
+  }
+  
+  .status-btn.cancelled {
+    color: #dc3545;
+    margin-left: 180px;
+    top: -38px; 
+    margin-right: 2px;
+  }
+  
+  .price {
+    position: relative; 
+    top: -20px; 
+    margin-top: 0; 
+    
+  }
+  
+  
+  .history-item p.price {
+    margin-top: 5px; 
+  }
+  
+  .price-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-top: 5px; 
+  }
+  
+  .price {
+    position: relative;
+    top: 40px; 
+    margin-top: 550px;
+  }
+  
+  .pricetag-container {
+    margin-bottom: 15px;
+  }
+  
+  .price::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -40px; 
+    width: 100%; 
+    height: 1px; 
+    background-color: #848884; 
+    z-index: 1; 
+  }
+  
+  .calendar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 150px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+
+  
+  .history-title {
+    background-color: #f0f0f0; 
+    padding: 10px; 
+    border-radius: 5px; 
+  }
+  
+  .back-button {
+    background: none;
+    border: none; 
+    padding: 0; 
+    cursor: pointer; 
+    color: #f0f0f0;
+  }
+  
+  .date-container {
+    display: flex; 
+    align-items: center; 
+    gap: 8px; 
+    margin-top: 50px; 
+  }
+  
+  .date-container svg {
+    flex-shrink: 0; 
+  }
+  
+  .history-item p {
+    margin-bottom: 10px; 
+  }

@@ -1,0 +1,116 @@
+/* General Container */
+.history1-container {
+  background: linear-gradient(to bottom, #2EA366 20%, #e4e0e0 80%);
+  padding: 20px;
+  padding-bottom: 50px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  color: #FFFFFF;
+  font-size: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.calendarrrrrrrrr-container{
+ margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+select {
+  padding: 10px;
+  font-size: 16px;
+  text-align: center;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+/* List of History */
+.history1-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+}
+
+.history1-item {
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.history1-item p {
+  margin: 5px 0;
+  font-size: 16px;
+  color: #333;
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  margin-right: 8px;
+}
+
+.money1-container {
+  margin-top: 10 px;
+  margin-bottom: 15px;
+}
+
+.money1 {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.money1 .icon {
+  color: #2ea366;
+  margin-right: 5px;
+}
+
+.status-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+  margin-top: -1.5rem;
+  margin-left: 170px;
+}
+
+.status-btn {
+  padding: 5px 10px;
+  border: none;
+  background: none;
+  font-weight: bold;
+  cursor: default;
+  white-space: nowrap;
+  margin-top: 10px; /* Prevent text from breaking into multiple lines */
+}
+
+.status-btn.order-confirm {
+  color: #007bff;
+}
+
+.status-btn.order-completed {
+  color: #28a745;
+}
+
+.status-btn.order-cancelled {
+  color: #dc3545;
+}
+
+/* Back Button */
+.back-button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  color: #f0f0f0;
+}

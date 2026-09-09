@@ -1,0 +1,120 @@
+.createpass-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ffffff;
+}
+
+.createpass-box {
+  width: 300px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.form-group {
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.float-label {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  font-size: 0px;
+  color: #888;
+  pointer-events: none;
+  transition: 0.2s ease all;
+  transform: translateY(-50%);
+}
+
+.float-label.active {
+  top: -10px;
+  font-size: 10px;
+  color: #333;
+  background-color: #ffffff;
+  padding: 0 5px;
+}
+
+.custom-input {
+  border: none;
+  border-bottom: 2px solid #000;
+  font-size: 16px;
+  padding: 10px 0;
+  padding-left: 10px;
+  width: 100%;
+  transition: border 0.3s ease;
+}
+
+.custom-input:focus {
+  outline: none;
+}
+
+.password-wrapper {
+  position: relative;
+}
+
+.toggle-password {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.password-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.password-hint {
+  font-size: 12px;
+  color: #ff6600;
+  margin-top: 5px;
+  text-align: left;
+}
+
+.password-hint.valid {
+  color: #2EA366;
+}
+
+.password-count {
+  font-size: 12px;
+  color: #888;
+  position: absolute;
+  right: 0;
+  bottom: -18px;
+}
+
+.password-match-error {
+  font-size: 12px;
+  color: #ff6600;
+  margin-top: 5px;
+  text-align: left;
+}
+
+.createpass-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #2EA366;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 30px;
+  font-size: 16px;
+}
+
+.createpass-button:hover {
+  background-color: #279258;
+}
+
+.createpass-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}

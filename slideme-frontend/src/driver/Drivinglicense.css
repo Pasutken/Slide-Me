@@ -1,0 +1,125 @@
+.drivinglicense-container {
+    max-width: 100%; 
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 110px;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+  }
+  
+
+  .drivinglicense-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .drivinglicense-header h1 {
+    font-size: 22px; 
+    font-weight: bold;
+    color: #2EA366;
+    margin-bottom: 20px;
+  }
+  
+  .drivinglicense-image {
+    width: 100%; 
+    max-width: 400px; 
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    margin: 0 auto;
+    display: block;
+  }
+  
+
+  .drivinglicense-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .scan-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; 
+    font-size: 16px;
+    color: #495057;
+  }
+  
+  .camera-icon {
+    font-size: 30px; 
+  }
+  
+  .scan-container p {
+    margin: 0;
+    font-size: 16px;
+    color: #495057;
+  }
+  
+  .scan-button {
+    width: 30px; 
+    height: 30px;
+    margin-left: 10px;
+    font-weight: bold;
+    background-color: #ffffff;
+    color: #495057;
+    border: none;
+    border-radius: 50%; 
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .scan-button:hover {
+    background-color: #2d8457;
+    color: white;
+  }
+  
+  .scan-button:active {
+    transform: scale(0.95);
+  }
+  
+
+  .checkbox-container {
+    display: flex;
+    align-items: center;
+    gap: 8px; 
+    font-size: 14px;
+    color: #495057;
+    margin-right: 10px;
+  }
+  
+  .checkbox-input {
+    width: 18px; 
+    height: 18px;
+    accent-color: #2EA366;
+  }
+  
+  .checkbox-label {
+    font-size: 14px; 
+    color: #495057;
+  }
+  
+
+  .continue-button {
+    width: 100%; 
+    max-width: 210px; 
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #2EA366;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .continue-button:hover {
+    background-color: #2d8457;
+  }
+  
+  .continue-button:active {
+    transform: scale(0.95);
+  }

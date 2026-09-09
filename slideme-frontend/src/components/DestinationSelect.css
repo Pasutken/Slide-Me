@@ -1,0 +1,76 @@
+/* src/components/Destination.css */
+
+.destination-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .destination-content {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+  }
+  
+  .search-container {
+    position: fixed;
+    top: 10%; /* ปรับตำแหน่งตามต้องการ */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    max-width: 400px;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 0;
+  }
+  
+  .search-item {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 10px 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }  
+  
+  .icon {
+    margin-right: 10px;
+    font-size: 1.2em;
+  }
+  
+  .text {
+    font-weight: bold;
+    color: #424242;
+  }
+  
+  .destination-list {
+    margin-top: 110px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 9rem;
+  }
+  
+  .list-item {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 5px 0;
+  }
+  
+  .list-icon {
+    font-size: 1.5em;
+    margin-right: 15px;
+  }
+  
+  .list-text .location-name {
+    font-weight: bold;
+    color: #424242;
+  }
+  
+  .list-text .location-address {
+    color: #777;
+    font-size: 0.9em;
+  }  

@@ -1,0 +1,88 @@
+.forgotpass-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ffffff;
+}
+
+.forgotpass-box {
+  width: 300px;
+  text-align: center;
+}
+
+.forgotpass-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.forgotpass-subtitle {
+  font-size: 14px;
+  color: #777;
+  margin: 5px 0; /* เพิ่มระยะห่างระหว่าง subtitle */
+  line-height: 1.5;
+}
+
+.form-group {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.custom-input {
+  border: none;
+  border-bottom: 2px solid #000;
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 16px;
+  padding: 10px 0;
+  width: 100%;
+  transition: border 0.3s ease;
+}
+
+.custom-input:focus {
+  outline: none;
+}
+
+.forgotpass-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #2EA366;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.forgotpass-button:hover {
+  background-color: #279258;
+}
+  
+  input[type="number"]::-webkit-outer-spin-button,
+  input[type="number"]::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+  }
+  
+  input[type="number"] {
+      -moz-appearance: textfield;
+  }
+  
+  .forgotpass-button {
+    width: 100%;
+    padding: 10px; /* กำหนด padding ให้ตรงกับปุ่มในหน้า Login */
+    background-color: #2EA366;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px; /* เพิ่มระยะห่างด้านบนของปุ่มให้ตรงกับหน้า Login */
+    transition: background-color 0.3s ease;
+  }
+  
+  .forgotpass-button:hover {
+    background-color: #279258;
+  }

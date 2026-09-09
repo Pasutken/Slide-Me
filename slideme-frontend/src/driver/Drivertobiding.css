@@ -1,0 +1,205 @@
+.dtob-container {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #f9f9f9;
+}
+
+.infloww-card {
+  position: fixed;
+  bottom: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  max-width: 400px;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  text-align: center;
+  z-index: 10;
+}
+
+.driver-infloww {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  padding: 0 15px;
+  flex-direction: row;
+}
+
+.driver-image {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-left: -15px;
+}
+
+.driver-details {
+  flex: 1;
+  margin-left: 10px;
+  text-align: left;
+}
+
+.dtdriverrrr {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  flex: 1;
+  margin-left: 10px;
+  text-align: left;
+}
+
+.driver-name {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.rating {
+  font-size: 14px;
+  color: #666;
+}
+
+.contact-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.contact-icon {
+  width: 28px;
+  height: 28px;
+  cursor: pointer;
+}
+
+.location-infloww {
+  text-align: left;
+  margin-bottom: 20px;
+  padding: 0 15px;
+}
+
+.location-item {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.green-dot,
+.pink-dot {
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.green-dot {
+  color: #2ea366;
+}
+
+.pink-dot {
+  color: #e91e63;
+}
+
+.divider {
+  margin: 15px 0;
+  border-top: 1px solid #ddd;
+}
+
+.ride-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px;
+  margin-bottom: 20px;
+}
+
+.ride-icon {
+  width: 50px;
+  height: 50px;
+}
+
+.ride-details span {
+  font-size: 16px;
+  color: #333;
+  margin: 0;
+  text-align: center;
+}
+
+.cancelbtn {
+  display: block;
+  margin: 0 auto;
+  width: 85%;
+  padding: 12px;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 15px;
+  background-color: #2EA366;
+  color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .infloww-card {
+    width: 95%; /* เพิ่มความกว้างสำหรับหน้าจอเล็ก */
+    padding: 20px; /* ลด padding */
+  }
+
+  .driver-image {
+    width: 50px;
+    height: 50px;
+  }
+
+  .driver-name {
+    font-size: 16px;
+  }
+
+  .rating {
+    font-size: 12px;
+  }
+
+  .ride-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .ride-details span {
+    font-size: 14px;
+  }
+
+  .cancelbtn {
+    width: 90%; /* เพิ่มความกว้างให้เหมาะกับหน้าจอเล็ก */
+    padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .infloww-card {
+    bottom: 60px; /* ลดระยะห่างสำหรับหน้าจอที่เล็กมาก */
+  }
+
+  .driver-infloww {
+    flex-direction: row; /* แสดงข้อมูลในแนวตั้ง */
+    align-items: flex-start; /* ชิดซ้าย */
+  }
+
+  .driver-image {
+    margin-left: 0;
+  }
+
+  .driver-details {
+    margin-left: 0;
+    text-align: center; /* จัดข้อความไว้กลาง */
+  }
+
+  .contact-icons {
+    justify-content: center; /* ไอคอนจัดตรงกลาง */
+  }
+
+  .cancelbtn {
+    font-size: 14px; /* ลดขนาดฟอนต์ */
+    padding: 8px;
+  }
+}

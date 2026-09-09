@@ -1,0 +1,61 @@
+
+.pay-title-container {
+    margin-bottom: 1em;
+    position: relative;
+    display: block;
+  }
+  
+  .pay-title {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;  
+    padding-bottom: 10px;
+    text-align: left;
+    position: relative;
+    width: 100%;
+    margin-left: 20px;
+  }
+  
+  .pay-title h6 {
+    margin: 0; 
+    font-size: 1rem; 
+    font-weight: 600; 
+    color: #121312; 
+    line-height: 1.5; 
+    
+  }
+  
+  .pay-title svg {
+    margin-left: 270px;
+    width: 16px;
+    height: 16px;
+    fill: currentColor;
+    color: #2ea366;
+  }
+  
+  .pay-title::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0; 
+    height: 1px; 
+    width: 350px;
+    background-color: #121312; 
+  }
+  
+  h6 {
+    font-size: 1rem; 
+    font-weight: 600; 
+    color: #121312; 
+    margin: 0; 
+    line-height: 1.5; 
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  
+
+  .payment-details-container {
+    margin-top: -150px; 
+    margin-left: -15px;
+  }

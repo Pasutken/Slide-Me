@@ -1,0 +1,40 @@
+/* src/components/MapView.css */
+
+.map-view {
+  width: 100%;
+  height: calc(100vh - 120px);
+  position: relative;
+}
+
+.search-container {
+  position: fixed;
+  top: 10%; /* ปรับตำแหน่งตามต้องการ */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  max-width: 400px;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 0;
+}
+
+.search-item {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 10px 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.icon {
+  margin-right: 10px;
+  font-size: 1.2em;
+}
+
+.text {
+  font-weight: bold;
+  color: #424242;
+}

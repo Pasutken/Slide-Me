@@ -1,0 +1,68 @@
+.qr-payment-container {
+    background-color: #f9f9f9;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.qr-payment-header {
+    background-color: #2EA366;
+    color: #fff;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.back-button {
+    position: absolute;
+    left: 20px;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.qr-content {
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.qr-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.promptpay-logo img {
+    width: 100px;
+    margin: 10px 0;
+}
+
+.qr-code {
+    margin: 20px 0;
+}
+
+.qr-info {
+    font-size: 14px;
+    color: #333;
+    margin-top: 10px;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+    text-align: left;
+}
+
+.qr-info p {
+    margin: 5px 0;
+}

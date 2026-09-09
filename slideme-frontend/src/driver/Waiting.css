@@ -1,0 +1,16 @@
+/* src/components/Home.css */
+.Waiting-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .Waiting-container .navbar,
+  .Waiting-container .bottom-navbar {
+    flex-shrink: 0;
+  }
+  
+  .map-view {
+    flex-grow: 1;
+    height: calc(100vh - 120px); /* ปรับความสูงของแผนที่ให้เต็มหน้าจอระหว่าง Navbar และ BottomNavBar */
+  }  

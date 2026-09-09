@@ -1,0 +1,81 @@
+.price-popup-overlay { 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.price-popup-content {
+    background-color: white;
+    width: 90%; /* ปรับให้เหมาะสม */
+    max-width: 320px; /* จำกัดความกว้างสูงสุด */
+    padding: 20px; /* เพิ่ม padding ด้านใน */
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* ระยะห่างระหว่างส่วนต่างๆ */
+}
+
+.price-popup-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+}
+
+.price-icon-container {
+    margin: 10px 0;
+}
+
+.price-icon {
+    width: 60px;
+    height: 60px;
+}
+
+.price-info {
+    margin: 10px 0;
+}
+
+.price-text {
+    font-weight: bold;
+    color: #333;
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.price-button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+    width: 100%;
+}
+
+.price-cancel-button, .price-pay-button {
+    flex: 1;
+    font-size: 1em;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 0;
+    border: none;
+    cursor: pointer;
+}
+
+.price-cancel-button {
+    color: #888;
+}
+
+.price-pay-button {
+    color: #2ea366;
+    margin-left: 15px;
+}

@@ -1,0 +1,35 @@
+.faq-container {
+    max-height: 300px; 
+    overflow-y: auto; 
+  }
+  
+  .faq-title {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 5px; 
+    margin-top: 1px;
+    margin-left: 20px;
+  }
+  
+  .faq-title::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 350px;
+    height: 1px;
+    background-color: #121312;
+    margin-top: 15px;
+  }
+  
+  .bi-chevron-right {
+    margin-left: 305px; 
+   color: #2Ea366;
+  }
+  
+.question-con{
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+  
